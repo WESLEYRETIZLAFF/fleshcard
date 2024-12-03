@@ -31,5 +31,50 @@ margin-bottom: 20px;
     margin-bottom: 8px;
 
 }
-
  
+.label{
+    margin: bottom 8px; 
+    display: block;
+    font-size: 14px;
+    color: #555;
+}
+
+.imput{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 14px;
+}
+
+.botao{
+width: 100%;
+padding: 10px;
+background-color:#4CAF50;
+color: #f4f4f4;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.botao:hover{
+    background-color: #45a049;
+}
+
+.resultado{
+text-align:center;
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+color: #333;
+}
+
+.aprovado{
+    color:green;
+}
+.recuperacao{
+    color:orange;
+}
